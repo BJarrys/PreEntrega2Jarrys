@@ -7,6 +7,7 @@ body {
     width: 100%;
     background-color: #ECE9CB;
     height: 30px;
+    padding-top: 0 !important;
 }
 
 .head-top-content {
@@ -14,7 +15,7 @@ body {
     justify-content: flex-end;
 }
 
-.head-top-content .link {
+.head-top-content-link {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
@@ -26,7 +27,7 @@ body {
     text-decoration:underline;
 }
 
-.head-top-content img {
+.head-top-content-img {
     height: 20px;
     margin: 3px 5px 5px 5px;
 }
@@ -60,14 +61,11 @@ header nav ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header nav ul li a {
-    display: block;
+.nav-linka {
     margin-right: 5px;
     background-color: #FFEDBE;
     border: #FFEDBE;
     border-radius: 15px;
-    height: 15px;
-    text-decoration: none;
     color: #50232E;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,6 +91,10 @@ header nav ul li a {
     color: #50232E;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion-body {
+    margin-top: 50px;
 }
 
 /*formato para slider*/
@@ -257,4 +259,15 @@ footer .footer-redes img {
 
 .footer-redes img {
     filter: invert(78%) sepia(56%) saturate(341%) hue-rotate(34deg) brightness(89%) contrast(89%);
+}
+
+
+
+
+.logos-destacados {
+    height: 50px;
+}
+
+.bl {
+    border-left: 1px solid;
 }
