@@ -148,3 +148,24 @@ footer .footer-redes img {
     color: #50232E;
 }
 
+@media only screen and (max-width: 797px) { 
+    footer {
+        display: none;
+    }
+    .navbar-nav {
+        margin-top: 40px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .gallery-cell {
+        text-align: center;
+    }
+    .gallery-cell img {
+        height: 100px;
+      }
+
+      .gallery-cell h3 {
+        font-size: small !important;
+      }
+}
