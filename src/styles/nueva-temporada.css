@@ -204,4 +204,18 @@ footer .footer-redes img {
     filter: invert(78%) sepia(56%) saturate(341%) hue-rotate(34deg) brightness(89%) contrast(89%);
 }
 
+@media only screen and (max-width: 797px) {
+    footer {
+        display: none;
+    }
+    .navbar-nav {
+        margin-top: 40px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .gallery-cell img {
+        height: 100px; 
+      }
+}
 
