@@ -158,4 +158,12 @@ footer .footer-redes img {
     .block-title span {
         font-size: 20px; 
     }
+
+    .info h4 {
+        font-size: small;
+    }
+
+    .info span {
+        font-size: smaller;
+    }
   }
